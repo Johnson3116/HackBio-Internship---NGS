@@ -6,17 +6,21 @@ echo Johnson Nweke #my name
 #2.	Creating Directories
 mkdir -p Johnson #create a folder titled Johnson
 
-#3.
+#3. New directory/change
 mkdir -p Johnson/biocomputing #create a new directory named biocomputing
 cd Johnson/biocomputing #change to the directory
 
 #4. Download these 3 files:
-Wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
-Wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
-Wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
 
 #5. Move the .fna file to the folder titled your name
+mv https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna Johnson/
 
 #6. Delete the duplicate gbk file
 Sort -u link.txt
 
+
+
+#PROJECT TWO: Installing Bioinformatics Packages with apt-get
