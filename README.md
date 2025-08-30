@@ -1,2 +1,2 @@
 # HackBio-Internship---NGS
-Bash, NGS, WGS
+BASh, NGS, WGS
