@@ -51,6 +51,18 @@ sudo apt-get install samtools bcftools bedtools bowtie2 hisat2 fastqc
 samtools --version #After installation, check the tool’s version: If it prints a version number, it’s installed and ready.
 
 #Upgrading Installed Packages
+sudo apt-get upgrade
+
+#Removing a Package
+#sudo apt-get remove <package-name>; Example: sudo apt-get remove vim
+
+#Completely Remove (with configuration files): sudo apt-get purge <package-name>
+
+#Clean Up Unused Packages: This removes unnecessary packages that were installed as dependencies but are no longer needed.
+sudo apt-get autoremove
+
+
+#PROJECT TWO: INSTALLATION TASK
 
 
 
@@ -59,13 +71,9 @@ samtools --version #After installation, check the tool’s version: If it prints
 
 
 
+#GITHub link: https://github.com/Johnson3116/HackBio-Internship---NGS/edit/main/Mod%201%20Stage%200
 
-
-
-
-
-
-
+#LinkedIn link: https://www.linkedin.com/in/johnson-nweke-medical-lab/
 
 
 
