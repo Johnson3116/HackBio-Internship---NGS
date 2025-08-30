@@ -24,3 +24,49 @@ Sort -u link.txt
 
 
 #PROJECT TWO: Installing Bioinformatics Packages with apt-get
+sudo apt-get update
+
+#Upgrade existing packages
+sudo apt-get upgrade
+
+#Search for Packages
+apt-cache search samtools
+apt-cache search blast
+
+#Install Common Bioinformatics Tools
+sudo apt-get install samtools
+sudo apt-get install bcftools
+sudo apt-get install bedtools
+sudo apt-get install bowtie2
+sudo apt-get install hisat2
+sudo apt-get install ncbi-blast+
+sudo apt-get install emboss
+sudo apt-get install hmmer
+sudo apt-get install fastqc
+
+#Installing Multiple Packages at Once
+sudo apt-get install samtools bcftools bedtools bowtie2 hisat2 fastqc
+
+#Verify Installation
+samtools --version #After installation, check the tool’s version: If it prints a version number, it’s installed and ready.
+
+#Upgrading Installed Packages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
