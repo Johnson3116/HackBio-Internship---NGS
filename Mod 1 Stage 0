@@ -64,10 +64,44 @@ sudo apt-get autoremove
 
 #PROJECT TWO: INSTALLATION TASK
 
+#1. Activate base conda environment
+conda --version
+
+#2. Create a conda environment named funtools
+conda create -n funtools python=3.10
+
+#3. Activate the funtools environment
+conda activate funtools
+
+#4. Install Figlet using conda or apt-get
 
 
+#5. Run figlet <your name>
 
 
+#6. Install bwa through the bioconda channel
+
+
+#7. Install blast through the bioconda channel
+sudo apt-get install ncbi-blast+
+
+#8. Install samtools through the bioconda channel
+sudo apt-get install samtools
+
+#9. Install bedtools through the bioconda channel
+sudo apt-get install bedtools
+
+#10.  Install spades.py through the bioconda channel
+sudo apt-get install spades.py
+
+#11. Install bcftools through the bioconda channel
+sudo apt-get install bcftools
+
+#12. Install fastp through the bioconda channel
+sudo apt-get install fastqc
+
+#13. Install multiqc through the bioconda channel
+sudo apt-get install samtools bcftools bedtools bowtie2 hisat2 fastqc
 
 
 
